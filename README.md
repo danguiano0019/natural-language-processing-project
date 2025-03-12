@@ -30,7 +30,7 @@ Record a short video of your project to display here on your README. You can do 
 - Upload the thumbnail image to your repo.
 - Use the following markdown code:
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](thumbnail.png)](youtube-URL-here)
 
 ## Project Description
 
@@ -38,5 +38,4 @@ The purpose of this project is to generate a name based on the input of the lett
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
-English
+I used NLP techniques in this project by using string methods. These string methods include, .equals(), toUpperCase(), and .substring(). The .equals() method is implemented to compare two string to each other, used similarly to ==, used to compare two number values. The .toUpperCase() method is implemented to correct the user input in the case that the letter inputted into the console is a lowercase letter. With this, it allows more variations of what can be compared to the first letter of each name in the txt file. The .substring() method is used to get a letter from a word at a specific index of the word.
